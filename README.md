@@ -1,57 +1,47 @@
-# Project Name
+# Bare Metal Forms and Helpers
 
-> One paragraph statement about the project.
+> Micro clone of Reddit that only contains the models and tables required for users to post and comment
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+In this project I built the data structures necessary to support link submissions and commenting. The front-end is not built because the main purpose of this is to learn about models and associations. You can interact with the models in the rails console.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Ruby on Rails
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
+You will need:
+- Ruby
+- Ruby on Rails
+- Bundler
 
 ### Install
 
+Clone the repo
+
+`git clone git@github.com:Blasco9/Bare-Metal-Forms-and-Helpers.git`
+
+Install dependencies
+
+`bundle install`
+
+Run the server
+
+`rails server`
+
 ### Usage
 
-### Run tests
+To create new users enter the path /users/new
 
-### Deployment
+To edit existing users enter the path /users/:id/edit
 
+## Author
 
+👤 **Julian Blasco**
 
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Blasco9](https://github.com/Blasco9)
+- Linkedin: [Julian Blasco](https://www.linkedin.com/in/julian-augusto-blasco-1656a0153/)
 
 ## 🤝 Contributing
 
@@ -65,9 +55,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Odin Project
+- Microverse
 
 ## 📝 License
 
