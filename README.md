@@ -1,8 +1,8 @@
 # Bare Metal Forms and Helpers
 
-> Micro clone of Reddit that only contains the models and tables required for users to post and comment
+> Different ways to create forms
 
-In this project I built the data structures necessary to support link submissions and commenting. The front-end is not built because the main purpose of this is to learn about models and associations. You can interact with the models in the rails console.
+The goal of this project was to explore the different ways to create forms in Rails. I built a pure html form, one using the form_tag helper method and one using the form_for helper method. When you run the Rails server you will be able to create users and edit them.
 
 ## Built With
 
